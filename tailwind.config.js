@@ -6,12 +6,12 @@ module.exports = {
     "./app/**/*.{js,ts,jsx,tsx,mdx}",
   ],
   theme: {
+    fontFamily:{
+      'Lilita': ['Lilita One'],
+      'Rajdhani': ['Rajdhani'],
     extend: {
-      fontFamily:{
-        'Lilita': ['Lilita One'],
-        'Rajdhani': ['Rajdhani'],
-      }
+    }
     },
-  },
-  plugins: [],
-};
+  }
+}
+
