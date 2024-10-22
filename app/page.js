@@ -28,7 +28,7 @@ export default function Home() {
         <Navbar/>
       </nav>
 
-      <main className="bg-gradient-to-b from-[#5fe4ffa8] to-[#2d2a45c7] flex-col-reverse flex lg:flex-row gap-4 w-full justify-start lg:justify-center items-center h-max py-20 lg:py-0 px-10">
+      <main className="bg-gradient-to-b from-[#5fe4ffa8] to-[#2d2a45c7] flex-col-reverse flex lg:flex-row gap-4 w-full justify-start lg:justify-center items-center h-max lg:h-[100vh] py-20 lg:py-0 px-10">
         <div className={`w-full lg:w-1/2 flex gap-4 flex-col ${rajdhani.className}`}>
           <h1 className="text-white text-5xl font-semibold">I am Riko</h1>
           <div className="text-[#00FFFF]  w-full h-full lg:pb-5  ">
