@@ -23,12 +23,12 @@ const lilita = Lilita_One({
 
 export default function Home() {
   return (
-    <div className="">
+    <main className="">
       <nav>
         <Navbar/>
       </nav>
 
-      <main className="bg-gradient-to-b from-[#5fe4ffa8] to-[#2d2a45c7] flex-col-reverse flex lg:flex-row gap-4 w-full justify-start lg:justify-center items-center h-max lg:h-[100vh] py-20 lg:py-0 px-10">
+      <div className="bg-gradient-to-b from-[#5fe4ffa8] to-[#2d2a45c7] flex-col-reverse flex lg:flex-row gap-4 w-full justify-start lg:justify-center items-center h-max lg:h-[100vh] py-20 lg:py-0 px-10">
         <div className={`w-full lg:w-1/2 flex gap-4 flex-col ${rajdhani.className}`}>
           <h1 className="text-white text-5xl font-semibold">I am Riko</h1>
           <div className="text-[#00FFFF]  w-full h-full lg:pb-5  ">
@@ -37,18 +37,18 @@ export default function Home() {
           <p className="text-xl lg:text-3xl text-white font-semibold">Haii, yuk  saling mengenal, bisa scroll kebawah</p>
           <div className="flex gap-5 lg:mt-8">
             <a href=" https://wa.me/6285707180120" className="rounded-2xl bg-[#02F3D3] py-2 px-4 font-semibold text-xl">Contact Me</a>
-            <button className="rounded-2xl bg-[#02F3D3] py-2 px-4 font-semibold text-xl hidden lg:flex">Scroll Down</button>
+            <a href="#certificate" className="rounded-2xl bg-[#02F3D3] py-2 px-4 font-semibold text-xl hidden lg:flex">Scroll Down</a>
           </div>
         </div>
         <div className="lg:w-1/2 h-max flex justify-center items-center self">
         <Image src={Img} alt="img" className="w-4/5"></Image>
         </div>
-      </main>
+      </div>
         {/* <About/> */}
 
         <Certificate/>
 
       <Footer/>
-    </div>
+    </main>
   );
 }
