@@ -36,34 +36,34 @@ function Certificate() {
         <h1 className={`text-5xl text-center text-white ${lilita.className}`}>CERTIFICATES</h1>
         <div className='w-full h-max px-10 py-7 flex flex-wrap gap-7 justify-center'>
             <div data-aos="flip-left" className='w-max hover:scale-[1.1] hover:duration-100 hover:ease-in-out lg:w-1/4 '>
-                <Image src={img1} className='h-52 w-auto'></Image>
+                <Image src={img1} alt='img' className='h-52 w-auto'></Image>
             </div>
             <div data-aos="flip-left" className='w-max hover:scale-[1.1] hover:duration-100 hover:ease-in-out lg:w-1/4 '>
-                <Image src={img2} className='h-52 w-auto'></Image>
+                <Image src={img2} alt='img' className='h-52 w-auto'></Image>
             </div>
             <div data-aos="flip-left" className='w-max hover:scale-[1.1] hover:duration-100 hover:ease-in-out lg:w-1/4 '>
-                <Image src={img3} className='h-52 w-auto'></Image>
+                <Image src={img3} alt='img' className='h-52 w-auto'></Image>
             </div>
             <div data-aos="flip-left" className='w-max hover:scale-[1.1] hover:duration-100 hover:ease-in-out lg:w-1/4 '>
-                <Image src={img4} className='h-52 w-auto'></Image>
+                <Image src={img4} alt='img' className='h-52 w-auto'></Image>
             </div>
             <div data-aos="flip-left" className='w-max hover:scale-[1.1] hover:duration-100 hover:ease-in-out lg:w-1/4 '>
-                <Image src={img5} className='h-52 w-auto'></Image>
+                <Image src={img5} alt='img' className='h-52 w-auto'></Image>
             </div>
             <div data-aos="flip-left" className='w-max hover:scale-[1.1] hover:duration-100 hover:ease-in-out lg:w-1/4 '>
-                <Image src={img6} className='h-52 w-auto'></Image>
+                <Image src={img6} alt='img' className='h-52 w-auto'></Image>
             </div>
             <div data-aos="flip-left" className='w-max hover:scale-[1.1] hover:duration-100 hover:ease-in-out lg:w-1/4 '>
-                <Image src={img7} className='h-52 w-auto'></Image>
+                <Image src={img7} alt='img' className='h-52 w-auto'></Image>
             </div>
             <div data-aos="flip-left" className='w-max hover:scale-[1.1] hover:duration-100 hover:ease-in-out lg:w-1/4 '>
-                <Image src={img8} className='h-52 w-auto'></Image>
+                <Image src={img8} alt='img' className='h-52 w-auto'></Image>
             </div>
             <div data-aos="flip-left" className='w-max hover:scale-[1.1] hover:duration-100 hover:ease-in-out lg:w-1/4 '>
-                <Image src={img9} className='h-52 w-auto'></Image>
+                <Image src={img9} alt='img' className='h-52 w-auto'></Image>
             </div>
             <div data-aos="flip-left" className='w-max hover:scale-[1.1] hover:duration-100 hover:ease-in-out lg:w-1/4 '>
-                <Image src={img10} className='h-52 w-auto'></Image>
+                <Image src={img10} alt='img' className='h-52 w-auto'></Image>
             </div>
         </div>
     </main>

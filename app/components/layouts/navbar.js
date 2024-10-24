@@ -25,10 +25,10 @@ function Navbar() {
       </div>
       <div className="hidden lg:flex gap-5">
         <button className="w-max h-max rounded-full flex bg-slate-400 p-2">
-          <Image src={Globe} className="w-8"/>
+          <Image src={Globe} alt="icons" className="w-8"/>
         </button>
         <button className="w-max h-max rounded-full bg-slate-400 p-2">
-        <Image src={Sun} className="w-8"/>
+        <Image src={Sun} alt="icons" className="w-8"/>
         </button>
       </div>
     </nav>
