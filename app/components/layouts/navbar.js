@@ -14,7 +14,7 @@ const lilita = Lilita_One({
 
 function Navbar() {
   return (
-    <nav className="w-full flex h-max py-3 px-11 absolute z-10 backdrop-blur-sm justify-between pt-8">
+    <nav className="w-full hidden lg:flex h-max py-3 px-11 absolute z-10 backdrop-blur-sm justify-between pt-5">
       <div
         className={` flex gap-12 text-white text-2xl font-bold ${lilita.className}`}
       >
